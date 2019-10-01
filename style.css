@@ -13,4 +13,26 @@ body{
     background-color: aliceblue;
     width: 100vw;
     height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.field img {
+    width: 40vw;
+    height: 15vh;
+    position: relative;
+   
+    
+   
+
+
+}
+.mrbump img {
+    width: 40vw;
+    height: 15vh;
+    bottom: 250px;
+
+    
 }
