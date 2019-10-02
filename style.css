@@ -19,20 +19,37 @@ body{
 }
 
 
+
+
 .field img {
     width: 40vw;
     height: 15vh;
     position: relative;
-   
     
-   
-
-
 }
 .mrbump img {
-    width: 40vw;
-    height: 15vh;
-    bottom: 250px;
-
-    
+    width: 30vw;
+    height: 20vh;
+    bottom: 270px;  
+    left:100px; 
 }
+
+/* @media only screen and (max-width: 200px){
+    .field img {
+        width: 40vw;
+        height: 15vh;
+        position: relative;
+    }
+    /* .mrbump img {
+        width: 40vw;
+        height: 15vh;
+        bottom: 400px;   
+    } 
+}*/
+
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: red;
+    }
+  }
+
