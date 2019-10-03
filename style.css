@@ -21,35 +21,40 @@ body{
 
 
 
-.field img {
-    width: 40vw;
-    height: 15vh;
-    position: relative;
-    
-}
-.mrbump img {
-    width: 30vw;
-    height: 20vh;
-    bottom: 270px;  
-    left:100px; 
-}
-
-/* @media only screen and (max-width: 200px){
+@media only screen and (min-device-width: 800px){
     .field img {
         width: 40vw;
         height: 15vh;
         position: relative;
+        
     }
-    /* .mrbump img {
+    .mrbump img {
+        width: 20vw;
+        height: 20vh;
+        bottom: 270px;  
+        left:180px; 
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 600px){
+    .field img {
+        width: 45vw;
+        height: 15vh;
+        position: relative; 
+    }
+     .mrbump img {
         width: 40vw;
         height: 15vh;
-        bottom: 400px;   
+        bottom: 400px; 
+        left: 50px; 
+        display: none; 
     } 
-}*/
+}
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (min-device-width: 400px) {
     body {
       background-color: red;
     }
-  }
+  } */
 
